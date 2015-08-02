@@ -6,3 +6,10 @@ Questions are broken up into weeks.
 Most of the time, questions will assume you understand the content taught in that week.
 
 Questions are drawn from https://www.reddit.com/r/cscareerquestions/comments/20ahfq/heres_a_pretty_big_list_of_programming_interview/
+
+To work on a challenge:
+
+  * Open the directory for that challenge
+  * Read the instructions in the directory's README
+  * Type `make` to compile your code
+  * Type `make tests` to test your solution

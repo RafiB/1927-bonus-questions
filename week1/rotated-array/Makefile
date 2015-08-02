@@ -9,5 +9,8 @@ OBJ=$(NAME).o test-$(NAME).o
 
 test-$(NAME): $(OBJ)
 
+tests:
+	./test-$(NAME)
+
 clean:
 	rm -f $(OBJ) test-$(NAME)

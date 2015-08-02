@@ -13,3 +13,11 @@ To work on a challenge:
   * Read the instructions in the directory's README
   * Type `make` to compile your code
   * Type `make tests` to test your solution
+  * If all the `.o` files are annoying you, `make tidy`
+
+## For tutors (and other awesome people)
+
+If you want to create a new challenge just copy one of the existing challenges
+into a new directory and throw that into the right week.
+
+The Makefiles should hopefully be generic enough that adding new files is easy.

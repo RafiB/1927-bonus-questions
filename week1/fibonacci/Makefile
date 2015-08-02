@@ -12,5 +12,8 @@ test-$(NAME): $(OBJ)
 tests:
 	./test-$(NAME)
 
+tidy:
+	rm -f $(OBJ)
+
 clean:
 	rm -f $(OBJ) test-$(NAME)
